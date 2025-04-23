@@ -2,6 +2,12 @@
 
 A RESTful API for managing airline ticketing operations including flight creation, ticket purchase, check-in, and passenger listing — developed with Flask, SQLAlchemy, JWT authentication, PostgreSQL, and Swagger documentation.
 
+### 🔗 Source Code
+
+You can find the full source code of the project on GitHub:
+
+👉 [Airline Ticketing API - GitHub Repository](https://github.com/ysgmur/Airline_Project)
+
 ---
 
 - **Swagger UI:**  https://airline-project-227h.onrender.com/apidocs
