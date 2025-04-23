@@ -91,6 +91,7 @@ JWT_SECRET_KEY=super-secret-key
 ---
 
 ## 🐞 Issues Encountered
+
 GitGuardian warning for exposed DB URI (fixed using .env)
 Swagger token auth not visible until securityDefinitions added
 PostgreSQL URI had to be encoded manually due to special characters
