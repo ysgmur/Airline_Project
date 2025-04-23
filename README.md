@@ -20,7 +20,7 @@ A RESTful API for managing airline ticketing operations including flight creatio
 
 Explore and test the API endpoints:
 
-🔗 [Swagger UI](https://airline-project-227h.onrender.com/apidocs/#/)
+🔗 [Swagger UI][(https://airline-project-227h.onrender.com/apidocs/#/)](https://airline-project-227h.onrender.com/apidocs/#/)
 
 > ⚠️ **Note:** This project is hosted on Render (free tier).  
 > Server sleeps after 15 minutes of inactivity and may take up to 1 minute to wake up.
