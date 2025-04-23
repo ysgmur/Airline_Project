@@ -1,59 +1,20 @@
-# ✈️ Airline Ticketing API
-
-A RESTful API for managing airline ticketing operations including flight creation, ticket purchase, check-in, and passenger listing — developed with Flask, SQLAlchemy, JWT authentication, PostgreSQL, and Swagger documentation.
-
-### 🔗 Source Code
-
-You can find the full source code of the project on GitHub:
-
-👉 [Airline Ticketing API - GitHub Repository](https://github.com/ysgmur/Airline_Project)
 
 ---
-
-- **Swagger UI:**  https://airline-project-227h.onrender.com/apidocs
----
-
-## 📦 Features
-
-- ✅ Add Flights (admin only)
-- ✅ Flight Search with paging
-- ✅ Ticket Purchase with seat availability control
-- ✅ Check-in with seat assignment
-- ✅ Passenger List per Flight
-- ✅ JWT-based Authentication
-- ✅ Swagger UI for testing
-
----
-
-## 🧠 Assumptions
-
-- Flights can only be added by admin users
-- Customers must register before buying tickets
-- Seat numbers are assigned in order during check-in
-- JWT authentication required for protected endpoints
-
-> 🔐 **Default Admin Credentials:**
-> - Username: `admin`
-> - Password: `1234`
-
----
-
-## 🗂️ Project Structure
-Airline_Project/ ├── app/ │ ├── init.py │ ├── config.py │ ├── models/ │ ├── routes/ │ ├── services/ │ ├── schemas/ │ └── utils/ ├── run.py ├── requirements.txt └── README.md
 
 ### 📌 ER Diagram
 
-![ER Diagram][(https://github.com/ysgmur/Airline_Project/blob/main/ER_Diagram/ER%20Diagram.png?raw=true)](https://github.com/ysgmur/Airline_Project/blob/main/ER_Diagram/ER%20Diagram.png)
+![ER Diagram](https://github.com/ysgmur/Airline_Project/blob/main/ER_Diagram/ER%20Diagram.png?raw=true)
+
 ---
 
 ## 🧪 Technologies Used
 
-- Python & Flask
-- PostgreSQL (Render.com)
-- SQLAlchemy
-- JWT Authentication
-- Flasgger (Swagger UI)
-- dotenv for secure configs
+- Python & Flask  
+- PostgreSQL (Render.com)  
+- SQLAlchemy  
+- JWT Authentication  
+- Flasgger (Swagger UI)  
+- dotenv for secure configs  
 
 ---
 
@@ -63,18 +24,16 @@ Airline_Project/ ├── app/ │ ├── init.py │ ├── config.py �
 git clone https://github.com/ysgmur/Airline_Project.git
 cd Airline_Project
 python -m venv venv
-source venv/bin/activate (or venv\Scripts\activate on Windows)
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+# Set environment variables
 DATABASE_URL=postgresql://your_user:your_pass@your_host/db
 JWT_SECRET_KEY=super-secret-key
 
-Issues Encountered
-GitGuardian warning for exposed DB URI (fixed by using .env)
-Swagger token auth not visible until added securityDefinitions
-PostgreSQL URI had to be manually encoded due to special characters
-Merge conflict caused temporary project loss, project was fully rebuilt.
-Swagger authorize button occasionally didn't show in Render deployment.
-
-
-
-
+🐞 Issues Encountered
+GitGuardian warning for exposed DB URI (fixed using .env)
+Swagger token auth not visible until securityDefinitions added
+PostgreSQL URI had to be encoded manually due to special characters
+Merge conflict caused temporary project loss, then fully rebuilt
+Swagger Authorize button sometimes doesn't show on Render (free tier)
