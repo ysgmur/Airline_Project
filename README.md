@@ -98,5 +98,7 @@ PostgreSQL URI had to be encoded manually due to special characters
 Merge conflict caused temporary project loss, then fully rebuilt
 Swagger Authorize button sometimes doesn't show on Render (free tier)
 
+---
+
 
 
