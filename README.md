@@ -89,8 +89,7 @@ DATABASE_URL=postgresql://your_user:your_pass@your_host/db
 JWT_SECRET_KEY=super-secret-key
 
 ---
-
-🐞 Issues Encountered
+## 🐞 Issues Encountered
 GitGuardian warning for exposed DB URI (fixed using .env)
 Swagger token auth not visible until securityDefinitions added
 PostgreSQL URI had to be encoded manually due to special characters
