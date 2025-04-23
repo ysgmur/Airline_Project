@@ -88,7 +88,6 @@ pip install -r requirements.txt
 DATABASE_URL=postgresql://your_user:your_pass@your_host/db
 JWT_SECRET_KEY=super-secret-key
 
----
 
 ## 🐞 Issues Encountered
 
@@ -98,7 +97,6 @@ PostgreSQL URI had to be encoded manually due to special characters
 Merge conflict caused temporary project loss, then fully rebuilt
 Swagger Authorize button sometimes doesn't show on Render (free tier)
 
----
 
 
 
