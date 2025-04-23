@@ -4,7 +4,7 @@ A RESTful API for managing airline ticketing operations including flight creatio
 
 ---
 
-- **Swagger UI:** [http://localhost:5000/apidocs](http://localhost:5000/apidocs)  
+- **Swagger UI:**  https://airline-project-227h.onrender.com/apidocs
 *(Update this after deployment to Render or other cloud)*
 
 ---
