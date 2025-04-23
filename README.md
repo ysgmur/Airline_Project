@@ -5,8 +5,6 @@ A RESTful API for managing airline ticketing operations including flight creatio
 ---
 
 - **Swagger UI:**  https://airline-project-227h.onrender.com/apidocs
-*(Update this after deployment to Render or other cloud)*
-
 ---
 
 ## 📦 Features
@@ -36,11 +34,6 @@ A RESTful API for managing airline ticketing operations including flight creatio
 
 ## 🗂️ Project Structure
 Airline_Project/ ├── app/ │ ├── init.py │ ├── config.py │ ├── models/ │ ├── routes/ │ ├── services/ │ ├── schemas/ │ └── utils/ ├── run.py ├── requirements.txt └── README.md
-
-Entities:
-- **User** (username, password, role)
-- **Flight** (date_from, airport_from, capacity, etc.)
-- **Ticket** (flight_id, passenger_name, seat_number)
 
 ---
 
