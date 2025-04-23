@@ -37,7 +37,7 @@ Airline_Project/ ├── app/ │ ├── init.py │ ├── config.py �
 
 ### 📌 ER Diagram
 
-![ER Diagram](https://github.com/ysgmur/Airline_Project/blob/main/ER_Diagram/ER%20Diagram.png?raw=true)
+![ER Diagram][(https://github.com/ysgmur/Airline_Project/blob/main/ER_Diagram/ER%20Diagram.png?raw=true)](https://github.com/ysgmur/Airline_Project/blob/main/ER_Diagram/ER%20Diagram.png)
 ---
 
 ## 🧪 Technologies Used
